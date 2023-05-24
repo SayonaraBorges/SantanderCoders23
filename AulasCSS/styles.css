@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+h1 {
+    color: #ffffff; 
+    font-size: 9.6rem;
+    background-color: #555;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, 'Comic Neue', Times, 'Times New Roman', serif
+
+}
+
+h2{
+    color: rgb(69, 6, 242);
+    font-size: 5.0rem;
+    background-color: rgba(160, 217, 69, 0.697);
+    font-weight: 200;
+}
+
+h4{
+    color: rgb(69, 6, 242);
+    background-color: rgba(160, 217, 69, 0.697);
+    font-weight: 600;
+    font-style: italic;
+    font-size: x-large;
+    text-decoration: solid;
+    text-align: right;
+}
+
+p{
+    font-size: 1.8rem;
+    text-align: justify;
+    text-indent: 6.0rem;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a{
+    font-size: 2.4rem;
+}
+a:hover{
+    color: darkgreen;
+}
+
+.bg-img{
+    height: 90.0rem;
+    background-color:#555;
+    background-image: url(https://images.unsplash.com/photo-1683343946402-85b144e8ecb6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
