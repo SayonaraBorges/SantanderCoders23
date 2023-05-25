@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exer07</title>
+    <style>
+        
+        body{
+            margin: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+       
+    </style>
+</head>
+<body >
+    <h1>Formulário de Cadastro</h1>
+    <form action="" method="get">
+        <div>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" placeholder="Informe seu nome..." name="nome">
+        </div>
+        <br>
+        <div>
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" name="email" placeholder="nome@email.com">
+        </div>
+        <br>
+        <div>
+            <label for="cpf">CPF: </label>
+            <input type="text" id="cpf" placeholder="000.000.000-00" name="cpf">
+        </div>
+        <br>
+        <div>
+            <label for="sexo">Sexo: </label>
+            <select name="sexo" id="sexo">
+                <option value="" disabled selected>Selecione uma das opções... </option>
+                <option value="Feminio">Feminino</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Outros">Prefiro não informar</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="data">Data de nascimento: </label>
+            <input type="date" id="data" name="data">
+        </div>
+        <br>
+        <div>
+            <label for="telefone">Telefone: </label>
+            <input type="text" id="telefone" placeholder="(DDD) 98888-8888" name="telefone">
+        </div>
+        <br>
+        <div>
+            <p>Deseja receber notificações por WhatsApp? </p>
+            <label for="marcar">Sim, desejo receber! </label>
+            <input type="radio" name="marcar" id="marcar">
+            <br>
+            <label for="marcar">Não. </label>
+            <input type="radio" name="marcar" id="marcar">
+        </div>
+        <div>
+            <p>Deseja receber ofertas por e-mail? </p>
+            <label for="marcar">Sim, desejo receber! </label>
+            <input type="radio" name="marcar" id="marcar">
+            <br>
+            <label for="marcar">Não. </label>
+            <input type="radio" name="marcar" id="marcar">
+        </div>
+        <br>
+        <div>
+            <input type="submit" id="botaoEnviar" value="Enviar">
+        </div>
+    </form>
+
+    
+</body>
+</html>
