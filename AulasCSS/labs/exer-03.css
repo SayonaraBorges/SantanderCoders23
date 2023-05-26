@@ -1,0 +1,12 @@
+.inline {
+    display: inline-flex;
+    list-style-position: inside; 
+}
+
+.doubleblackmediumborder{
+    border: black medium double;
+}
+
+.nonestylelist{
+    list-style-type: none;
+}

@@ -1,0 +1,15 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+p::first-letter {
+    font-size: 36px;
+    color: #8A2BE2;
+    font-weight: bold;
+}

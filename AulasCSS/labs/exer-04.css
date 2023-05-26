@@ -1,0 +1,13 @@
+ol{
+    background-color:#ff9999;
+    margin: 5px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+ol li{
+    background: #ffe5e5;
+
+}
